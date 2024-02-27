@@ -19,7 +19,7 @@ def get_text_after_substring(main_string, substring):
 
 
 def main():
-    equation = "-2*x^4 + (3+2)*4*(x + 3)^2 - sin(x) + cot(x + 12) + csc(2x)"
+    equation = "-2*x^4 + (3+2)*4*(x + 3)^2 - sin(x) + cot(x + 12) + csc(x)"
     #equation = "4*x^2"
     x = 'x' # this codes assumes tha the variable is x
     print(f"Input: {equation}")
